@@ -1,0 +1,110 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*{
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    font-weight: bold !important;
+    font-family: "微軟正黑體" !important; 
+}
+.wrap{
+    margin: 0 auto;
+    width: 1280px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:RGB(231,238,234);
+    box-shadow: 3px 3px 4px grey;
+}
+.header img{
+    margin: 16px 48px;
+}
+.topmenu {
+    display: flex;
+}
+.topmenu li{
+}
+.topmenu li a{
+    display: block;
+    padding: 40px 14px;
+    text-decoration-line: none;
+    color:RGB(55,82,61);
+}
+.topmenu li a:hover{
+    background-color: rgb(141, 202, 141);
+    transition: all .5s;
+}
+.content{
+    padding:78px 340px;
+}
+.content h3{
+    margin-bottom: 28px;
+    font-size: 20px;
+}
+.content img{
+    margin: 20px 0px;
+    border: 1px solid #000;
+}
+.content p{
+    line-height: 1.2;
+}
+.footer{
+    background-color: RGB(55,82,61);
+}
+.bottom-menu{
+    padding: 0px 550px;
+    display: flex;
+}
+.bottom-menu li a{
+    display: block;
+    padding: 23px 15px;
+    text-decoration-line: none;
+    color: #fff;
+    font-size: 12px;
+}
+.bottom-menu li a:hover{
+    background-color: rgb(98, 154, 98);
+}

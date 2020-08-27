@@ -1,0 +1,106 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*{
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    font-weight: bold !important;
+    font-family: "微軟正黑體" !important;
+}
+.wrap{
+    margin: 0 auto;
+    width: 910px;
+    border: 10px solid RGB(55,82,61);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: RGB(231,238,234);
+    padding-left: 10px;
+}
+.header >a{
+    display: block;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.content{
+    display: flex;
+    padding: 30px 50px;
+}
+.aside img{
+    margin-right: 50px;
+}
+.topmenu li a{
+    display: block;
+    padding: 26px 30px;
+    text-decoration: none;
+    color: RGB(55,82,61) ;
+}
+.topmenu li a:hover{
+    background-color: rgb(177, 235, 177);
+    transition: all .5s;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section-top h2{
+    margin-top: 28px;
+    margin-bottom: 28px;
+    font-size: 22px;
+}
+.section-top p{
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+.section-bottom a{
+    display:inline-block;
+    padding: 10px;
+    margin-right: 12px;
+    font-size: 20px;
+    color:RGB(65,91,71) ;
+}

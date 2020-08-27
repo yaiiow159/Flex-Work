@@ -1,0 +1,131 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*{
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    font-family: "微軟正黑體"!important;
+}
+.container{
+    justify-content: center;
+    display: flex;
+    width: 950px;
+    margin: 0 auto;
+    padding: 5px;
+}
+.item1{
+    width: 300px;
+}
+.item1 li{
+    height: 70px;
+    border: 1px RGB(231,238,234) solid;
+    color: RGB(55,82,61);
+}
+.item1 li a{
+    display: block;
+    padding: 23px;
+    text-decoration-line: none;
+    text-align: center;
+    font-weight: bold;
+    color: RGB(55,82,61);
+    font-size: 24px;
+}
+.item1 .l1{
+    background: RGB(55,82,61);
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 70px;
+    color: #fff;
+}
+.item1 li a:hover{
+    background:RGB(231,238,234);
+}
+.item2{
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.product img:hover{
+    opacity: 0.5;
+}
+.product a{
+    display: block;
+    padding: 30px 90px;
+    text-decoration-line: none;
+    text-align: center;
+    background-color: RGB(231,238,234);
+    color: RGB(55,82,61);
+    font-weight: bold;
+}
+.product a:hover{
+    background-color: rgb(191, 223, 191);
+    color: #fff;
+}
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+}
+.intro span{
+    color: RGB(55,82,61);
+    font-weight: bold;
+}
+.intro .food{
+    display: block;
+    border: 1px solid RGB(231,238,234);
+    padding: 20px 44px;
+}
+.intro .price{
+    padding: 20px 34px;
+    border: 1px solid RGB(231,238,234);
+}
