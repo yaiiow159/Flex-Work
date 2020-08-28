@@ -65,6 +65,9 @@ table {
     text-indent: 101%;
     white-space: nowrap;
     overflow: hidden;
+    background: url(https://hexschool.github.io/flexImgUrl/6/logo.png) no-repeat;
+    width: 298px;
+    height: 59px;
 }
 .content{
     display: flex;

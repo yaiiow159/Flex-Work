@@ -56,7 +56,9 @@ table {
 .content{
     height: 803px;
     background-color: RGB(231,238,234);
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .article{
     position: absolute;

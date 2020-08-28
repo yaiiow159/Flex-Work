@@ -95,8 +95,8 @@ table {
     background-color: RGB(55,82,61);
 }
 .bottom-menu{
-    padding: 0px 550px;
     display: flex;
+    justify-content: center;
 }
 .bottom-menu li a{
     display: block;
